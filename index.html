@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900"
+        rel="stylesheet" />
+    <link rel="shortcut icon" href="./assets/IMG/nficon2016.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+</head>
+
+<body>
+
+
+    <a href="#"><img class="netflix-logo" src="./assets/IMG/netflix-logo.svg" alt="netflix-logo"></a>
+
+
+    <div class="container">
+        <form class="login">
+            <span>Entrar</span>
+
+
+
+
+            <div class="input-email_div">
+                <input type="text" name="e-mail" id="email-input">
+                <label class="label-email" for="email-input">Email ou número de telefone</label>
+            </div>
+            <span class="error-message-email"></span>
+
+
+
+
+
+            <div class="input-senha_div">
+                <input type="password" name="senha" id="senha-input">
+                <label class="label-senha" for="senha-input">Senha</label>
+                <span onclick="hiddenPassword()" class="hidden-pass"></span>
+            </div>
+            <span class="error-message-senha">testando varias vezes isso la</span>
+
+
+
+            <button class="enter-btn">Entrar</button>
+
+
+
+            <div class="help_div">
+                <div class="remember_div">
+                    <input type="checkbox" id="remember" checked>
+                    <label for="remember">Lembre-se de mim</label>
+                </div>
+
+
+                <a href="#">Precisa de ajuda?</a>
+            </div>
+
+
+
+
+
+
+            <span class="new-user">Novo por aqui? <a href="#">Assine agora</a>.</span>
+
+
+            <span class="captcha">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <a
+                    href="#">Saiba mais.</a></span>
+
+        </form>
+    </div>
+
+
+
+
+    <footer>
+        <div class="info-footer">
+            <span class="duvidas">Dúvidas? Ligue <a href="#">0800 591 8942</a></span>
+
+            <div class="links-footer">
+                <a href="#">Perguntas frequentes</a>
+                <a href="#">Central de Ajuda</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Privacidade</a>
+                <a href="#">Preferências de cookies</a>
+                <a href="">Informações corporativas</a>
+            </div>
+
+            <select name="linguage" id="linguage">
+                <option value="pt">Português</option>
+                <option value="en">Inglês</option>
+            </select>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
